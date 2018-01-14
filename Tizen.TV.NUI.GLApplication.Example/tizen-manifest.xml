@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="4" package="org.tizen.example.Tizen.TV.NUI.GLApplication.Example" version="1.0.0">
+	<feature name="http://tizen.org/feature/screen.size.normal.1080.1920">true</feature>
+  <profile name="tv" />
+  <ui-application appid="org.tizen.example.Tizen.TV.NUI.GLApplication.Example"
+					exec="Tizen.TV.NUI.GLApplication.Example.dll"
+					type="dotnet"
+					multiple="false"
+					taskmanage="true"
+					nodisplay="false"
+					launch_mode="single">
+    <icon>Tizen.TV.NUI.GLApplication.Example.png</icon>
+    <label>Tizen.TV.NUI.GLApplication.Example</label>
+  </ui-application>
+  <tv-info api-version="4.4.0">
+    <infolink>T-INFOLINK2018-1000</infolink>
+  </tv-info>
+</manifest>
