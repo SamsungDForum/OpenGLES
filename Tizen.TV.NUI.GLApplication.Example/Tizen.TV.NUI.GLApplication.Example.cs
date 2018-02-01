@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using Tizen.TV.NUI.GLApplication;
 
 namespace Tizen.TV.NUI.GLApplication.Example
 {
